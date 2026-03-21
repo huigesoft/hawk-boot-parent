@@ -22,7 +22,7 @@
 	<parent>
 		<groupId>com.huigesoft.hawk</groupId>
 		<artifactId>hawk-boot-parent</artifactId>
-		<version>Horse.001</version>
+		<version>Horse.002</version>
 	</parent>
 	<artifactId>hawk-boot-base</artifactId>
 	<name>hawk-boot-base</name>

@@ -1,0 +1,124 @@
+{
+	"groups": [
+		{
+			"sourceType": "com.huige.hawk.core.properties.HawkProperties",
+			"name": "hawk",
+			"type": "com.huige.hawk.core.properties.HawkProperties"
+		},
+		{
+			"sourceType": "com.huige.hawk.core.properties.HawkKeyStoreProperties",
+			"name": "hawk.keystore",
+			"type": "com.huige.hawk.core.properties.HawkKeyStoreProperties"
+		},
+		{
+			"sourceType": "com.huige.hawk.core.properties.HawkSecurityProperties",
+			"name": "hawk.security",
+			"type": "com.huige.hawk.core.properties.HawkSecurityProperties"
+		},
+		{
+			"sourceType": "com.huige.hawk.core.properties.HawkHttpProperties",
+			"name": "hawk.http",
+			"type": "com.huige.hawk.core.properties.HawkHttpProperties"
+		}
+	],
+	"properties": [
+		{
+			"name": "hawk.config",
+			"type": "java.util.Map",
+			"description": "用于配置平台中业务运行所需要的参数"
+		},
+		{
+			"name": "hawk.variable",
+			"type": "java.util.Map",
+			"description": "用于配置平台的自定义变量"
+		},
+		{
+			"sourceType": "com.huige.hawk.boot.properties.HawkProperties",
+			"name": "hawk.cluster-protocol",
+			"type": "java.lang.String",
+			"defaultValue": "udp",
+			"description": "多节点集群数据通信协议,可选值为：udp,tcp,tcp_nio,默认值为：udp"
+		},
+		{
+			"sourceType": "com.huige.hawk.boot.properties.HawkProperties",
+			"name": "hawk.cluster-name",
+			"type": "java.lang.String",
+			"defaultValue": "hawk_cluster",
+			"description": "多节点集群名称,默认值为：hawk_cluster"
+		},
+		{
+			"sourceType": "com.huige.hawk.starter.oauth2.props.SecurityProps",
+			"name": "hawk.security.permit-matchers",
+			"type": "java.util.List",
+			"description": "不需要认证的地址配置"
+		},
+		{
+			"sourceType": "com.huige.hawk.starter.oauth2.props.HawkKeyStoreProperties",
+			"name": "hawk.keystore.path",
+			"type": "java.lang.String",
+			"defaultValue": "hawk.jks",
+			"description": "密钥库路径"
+		},
+		{
+			"sourceType": "com.huige.hawk.starter.oauth2.props.HawkKeyStoreProperties",
+			"name": "hawk.keystore.alias",
+			"type": "java.lang.String",
+			"defaultValue": "hawk",
+			"description": "密钥别名"
+		},
+		{
+			"sourceType": "com.huige.hawk.starter.oauth2.props.HawkKeyStoreProperties",
+			"name": "hawk.keystore.keyStorePassword",
+			"type": "java.lang.String",
+			"defaultValue": "admin888",
+			"description": "密钥存储密码"
+		},
+		{
+			"sourceType": "com.huige.hawk.starter.oauth2.props.HawkKeyStoreProperties",
+			"name": "hawk.keystore.keyPassword",
+			"type": "java.lang.String",
+			"defaultValue": "admin888",
+			"description": "密钥密码"
+		},
+		{
+			"sourceType": "com.huige.hawk.starter.oauth2.props.HawkKeyStoreProperties",
+			"name": "hawk.keystore.keystoreType",
+			"type": "java.lang.String",
+			"defaultValue": "jks",
+			"description": "密钥库类型"
+		},
+		{
+			"sourceType": "com.huige.hawk.core.properties.HawkHttpProperties",
+			"name": "hawk.http.secureKey",
+			"type": "java.lang.String",
+			"defaultValue": "admin888",
+			"description": "HTTP请求加密密钥,默认值：admin888"
+		},
+		{
+			"sourceType": "com.huige.hawk.core.properties.HawkHttpProperties",
+			"name": "hawk.http.algorithm",
+			"type": "com.huige.hawk.core.enums.HttpAlgorithm",
+			"defaultValue": "DES",
+			"description": "HTTP请求加密算法,默认值：DES"
+		}
+	],
+	"hints": [
+		{
+			"name": "hawk.http.algorithm",
+			"values": [
+				{
+					"value": "DES",
+					"description": "DES"
+				},
+				{
+					"value": "AES",
+					"description": "AES 保留"
+				},
+				{
+					"value": "RSA",
+					"description": "RSA 保留"
+				}
+			]
+		}
+	]
+}

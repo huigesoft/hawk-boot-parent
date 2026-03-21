@@ -26,7 +26,7 @@
 	</parent>
 	<groupId>com.huigesoft.hawk</groupId>
 	<artifactId>hawk-boot-parent</artifactId>
-	<version>Horse.001</version>
+	<version>Horse.002</version>
 	<packaging>pom</packaging>
 	<name>hawk-boot-parent</name>
 	<description>Hawk 信息化快速开发通用父类</description>
