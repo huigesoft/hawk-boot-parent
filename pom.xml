@@ -53,6 +53,16 @@
 		<url>https://github.com/huigesoft/hawk-boot-parent/issues</url>
 	</issueManagement>
 
+	<distributionManagement>
+		<repository>
+			<id>hawk-releases</id>
+			<url>http://182.92.155.19:10020/repository/hawk-releases/</url>
+		</repository>
+		<snapshotRepository>
+			<id>sunway-snapshots</id>
+			<url>http://182.92.155.19:10020/repository/hawk-snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
 	<scm>
 		<connection>scm:git:git@github.com:huigesoft/hawk-boot-parent.git</connection>
 		<developerConnection>
@@ -114,7 +124,7 @@
 				</configuration>
 			</plugin>
 
-			<!-- Source
+			<!-- Source-->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-source-plugin</artifactId>
@@ -127,8 +137,8 @@
 					</execution>
 				</executions>
 			</plugin>
- 			-->
-			<!-- Javadoc 
+
+			<!-- Javadoc  -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-javadoc-plugin</artifactId>
@@ -166,7 +176,7 @@
 					</execution>
 				</executions>
 			</plugin>
-			-->
+
 		</plugins>
 		<pluginManagement>
 			<plugins>
