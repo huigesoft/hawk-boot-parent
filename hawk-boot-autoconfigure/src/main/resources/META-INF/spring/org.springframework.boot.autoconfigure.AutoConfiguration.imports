@@ -1,0 +1,5 @@
+com.huigesoft.hawk.autoconfigure.HawkAutoConfiguration
+com.huigesoft.hawk.autoconfigure.HawkDataSourceAutoConfiguration
+com.huigesoft.hawk.autoconfigure.MyBatisPlusAutoConfiguration
+com.huigesoft.hawk.autoconfigure.HawkMvcAutoConfiguration
+com.huigesoft.hawk.autoconfigure.HawkSecurityConfiguration

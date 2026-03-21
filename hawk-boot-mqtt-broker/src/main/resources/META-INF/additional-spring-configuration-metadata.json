@@ -1,0 +1,54 @@
+{
+	"groups": [
+		{
+			"sourceType": "com.huigesoft.hawk.mqtt.broker.properties.MqttBrokerProperties",
+			"name": "hawk.mqtt.broker",
+			"type": "com.huigesoft.hawk.mqtt.broker.properties.MqttBrokerProperties"
+		}
+	],
+	"properties": [
+		{
+			"sourceType": "com.huigesoft.hawk.mqtt.broker.properties.MqttBrokerProperties",
+			"name": "hawk.mqtt.broker.enable",
+			"type": "java.lang.Boolean",
+			"defaultValue": true,
+			"description": "MQTT Broker是否启用,默认值为：true"
+		},
+		{
+			"sourceType": "com.huigesoft.hawk.mqtt.broker.properties.MqttBrokerProperties",
+			"name": "hawk.mqtt.broker.port",
+			"type": "java.lang.Integer",
+			"defaultValue": 1883,
+			"description": "MQTT Broker监听端口,默认值为：1883"
+		},
+		{
+			"sourceType": "com.huigesoft.hawk.mqtt.broker.properties.MqttBrokerProperties",
+			"name": "hawk.mqtt.broker.host",
+			"type": "java.lang.String",
+			"defaultValue": "0.0.0.0",
+			"description": "MQTT Broker 监听地址,默认值为：0.0.0.0"
+		},
+		{
+			"sourceType": "com.huigesoft.hawk.mqtt.broker.properties.MqttBrokerProperties",
+			"name": "hawk.mqtt.broker.message-size",
+			"type": "java.lang.Integer",
+			"defaultValue": 1048576,
+			"description": "MQTT Broker 单个消息最大尺寸,默认值为：1048576 字节"
+		},
+		{
+			"sourceType": "com.huigesoft.hawk.mqtt.broker.properties.MqttBrokerProperties",
+			"name": "hawk.mqtt.broker.thread-pool-size",
+			"type": "java.lang.Integer",
+			"defaultValue": 1,
+			"description": "MQTT Broker 线程池大小,默认值为：1"
+		},
+		{
+			"sourceType": "com.huigesoft.hawk.mqtt.broker.properties.MqttBrokerProperties",
+			"name": "hawk.mqtt.broker.storage-path",
+			"type": "java.lang.String",
+			"defaultValue": ".",
+			"description": "MQTT Broker 持久化存储路径,默认值为：当前目录"
+		}
+	],
+	"hints": []
+}

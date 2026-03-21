@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.huigesoft.hawk</groupId>
+		<artifactId>hawk-boot-parent</artifactId>
+		<version>Horse.001</version>
+	</parent>
+	<artifactId>hawk-boot-mqtt-broker</artifactId>
+	<name>hawk-boot-mqtt-broker</name>
+	<description>MQTT Broker</description>
+	<dependencies>
+		<dependency>
+			<groupId>com.huigesoft.hawk</groupId>
+			<artifactId>hawk-boot-common</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.github.moquette-io.moquette</groupId>
+			<artifactId>moquette-broker</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-configuration-processor</artifactId>
+			<optional>true</optional>
+		</dependency>
+	</dependencies>
+</project>
