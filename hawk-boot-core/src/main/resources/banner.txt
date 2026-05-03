@@ -5,7 +5,7 @@
 |_| |_|  \__,_|   \_/\_/   |_|\_\
 ${AnsiColor.BRIGHT_GREEN}
 Spring Boot Version: ${spring-boot.version}${spring-boot.formatted-version}                                                            
-Hawk Version: Horse.001
+Hawk Version: Horse.004
 Application Version: ${application.version}${application.formatted-version}
 
 Email: wangwha@126.com

@@ -22,15 +22,15 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-dependencies</artifactId>
-		<version>4.0.5</version>
+		<version>4.0.6</version>
 	</parent>
 	<groupId>com.huigesoft.hawk</groupId>
 	<artifactId>hawk-boot-parent</artifactId>
-	<version>Horse.003</version>
+	<version>Horse.004</version>
 	<packaging>pom</packaging>
 	<name>hawk-boot-parent</name>
 	<description>Hawk 信息化快速开发通用父类</description>
-	<url>https://gitee.com/huigeteam/hawk-boot-parent</url>
+	<url>https://github.com/huigesoft/hawk-boot-parent</url>
 
 	<licenses>
 		<license>
@@ -78,11 +78,11 @@
 		<maven.compiler.source>${java.version}</maven.compiler.source>
 		<maven.compiler.target>${java.version}</maven.compiler.target>
 		<mybatis-plus.version>3.5.16</mybatis-plus.version>
-		<oshi.version>6.11.0</oshi.version>
-		<jgroups.version>5.5.4.Final</jgroups.version>
+		<oshi.version>7.0.0</oshi.version>
+		<jgroups.version>5.5.5.Final</jgroups.version>
 		<moquette.version>0.18.0</moquette.version>
-		<questdb.version>9.3.4</questdb.version>
-		<bcpkix-jdk18on.version>1.83</bcpkix-jdk18on.version>
+		<questdb.version>9.3.5</questdb.version>
+		<bcpkix-jdk18on.version>1.84</bcpkix-jdk18on.version>
 		<spring-boot-aop.version>4.0.0-M2</spring-boot-aop.version>
 	</properties>
 
